@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lista de Tareas </title>
+    <link rel="stylesheet" href="listaTareas.css">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+</head>
+
+<body>
+<!-- Usa los ID para trabajar con Javascript y las clases para CSS -->
+    <div class="principal">
+        <div class="wrap">
+            <form class="formulario" action="">
+                <input type="text" id="tareaInput" placeholder="Agrega una nueva tarea">
+                <input type="button" class="boton" id="btn-agregar" value="Agregar">
+            </form>
+        </div>
+    </div>
+
+    <div class="tareas">
+        <div class="wrap">
+            <ul class="lista" id="lista">
+                <li><a href="#"> 1 Tarea a realizar</a></li>
+                <li><a href="#"> 2 Tarea a realizar</a></li>
+                <li><a href="#"> 3 Tarea a realizar</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="listaTareas.js"></script>
+    
+</body>
+
+</html>
